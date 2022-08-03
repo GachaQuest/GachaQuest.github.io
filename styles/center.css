@@ -1,0 +1,129 @@
+.centered {
+    display: list-item;
+    justify-content: center;
+    align-items: start;
+}
+
+.hStyle {
+    text-align: center;
+    font-family: fantasy;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 75px;
+}
+
+.pStyle {
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    width: 600px;
+    height: 125px;
+}
+
+.tableRate {
+    position: fixed;
+    top: 100px;
+    left: 700px;
+    table-layout: fixed;
+    width: 200px;
+    height: 125px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.tableRolls {
+    position: fixed;
+    top: 250px;
+    left: 700px;
+    table-layout: fixed;
+    width: 200px;
+    height: 125px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.tableLoot {
+    position: fixed;
+    top: 400px;
+    left: 50px;
+    table-layout: fixed;
+    width: 300px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.tableInventory {
+    position: fixed;
+    top: 400px;
+    left: 375px;
+    table-layout: fixed;
+    width: 250px;
+    height: 400px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.tableSkills {
+    position: fixed;
+    top: 400px;
+    left: 650px;
+    table-layout: fixed;
+    width: 250px;
+    height: 400px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.buttonA {
+    position: fixed;
+    top: 300px;
+    left: 50px;
+    width: 125px;
+    height: 50px;
+    background-color: #4ca0af; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttonB {
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    width: 125px;
+    height: 50px;
+    background-color: #4ca0af; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttonC {
+    position: fixed;
+    top: 300px;
+    left: 400px;
+    width: 100px;
+    height: 50px;
+    background-color: #4ca0af; /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
