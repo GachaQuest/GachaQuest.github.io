@@ -1,5 +1,5 @@
 import React from "react";
-import { useAtom } from 'jotai'
+import { useAtom } from 'jotai';
 import { RollCountAtom, UCountAtom, RCountAtom, SCountAtom, NCountAtom} from "../src/gameState";
 import '../styles/center.css';
 //import '../src/ItemData.xlsx';
