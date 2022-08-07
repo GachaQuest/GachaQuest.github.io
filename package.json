@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "jotai": "^1.7.6",
-    "next": "12.2.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@tsconfig/create-react-app": "^1.0.2",
