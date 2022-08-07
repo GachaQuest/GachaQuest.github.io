@@ -2,7 +2,7 @@
   "name": "gachademo",
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://GachaQuest.github.io",
+  "homepage": "https://GachaQuest.github.io/GachaSim",
   "private": true,
   "scripts": {
     "dev": "next dev",
