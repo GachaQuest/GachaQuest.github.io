@@ -26,7 +26,6 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([jota
 
 
 
-//import '../src/ItemData.xlsx';
 //App layout starts here
 function IndexPage() {
     const [rollCount, setRollCount] = (0,jotai__WEBPACK_IMPORTED_MODULE_2__.useAtom)(_src_gameState__WEBPACK_IMPORTED_MODULE_3__/* .RollCountAtom */ .Pr);
@@ -34,8 +33,7 @@ function IndexPage() {
     const [sCount, setSCount] = (0,jotai__WEBPACK_IMPORTED_MODULE_2__.useAtom)(_src_gameState__WEBPACK_IMPORTED_MODULE_3__/* .SCountAtom */ .dK);
     const [rCount, setRCount] = (0,jotai__WEBPACK_IMPORTED_MODULE_2__.useAtom)(_src_gameState__WEBPACK_IMPORTED_MODULE_3__/* .RCountAtom */ .a9);
     const [nCount, setNCount] = (0,jotai__WEBPACK_IMPORTED_MODULE_2__.useAtom)(_src_gameState__WEBPACK_IMPORTED_MODULE_3__/* .NCountAtom */ .t1);
-    // const setSCount = useSetAtom(SCountAtom)
-    // const setRollCount = useSetAtom(RCountAtom)
+    //const ItemTables = XLSX.readFile("../GachaTables/ItemData.xlsx");
     //Roll logic starts here
     function roll_1() {
         setRollCount((rollCount)=>rollCount + 1);
